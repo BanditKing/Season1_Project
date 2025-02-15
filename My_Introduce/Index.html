@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>나의 자기소개</title>
+    <title>Street Gallery</title>
     <link href="./style.css" rel="stylesheet">
 </head>
 <body>
     <nav id = "nav">
-        <a href='#'>logo</a>
+        <a href='./images/title.jpg'>logo</a>
         <ul>
             <li><a href ="">About</a></li>
             <li><a href ="">gallery</a></li>
@@ -20,16 +20,34 @@
 
     <section class="header">
         <div class="title">
-            <img src="./images/photo.jpg" alt="프로필 사진">
+            <img src="./images/title.jpg" alt="프로필 사진">
             <h1>JunHyung's Introduce</h1>
 <br>
             <p>좋은 시간 되었으면 합니다.
 <br>
-            저의 소개는 글과 사진으로만 진행됩니다.</p>
+             소개는 글과 사진으로만 진행됩니다.</p>
         </div>
-        
-      
+
+
     </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+            <img src="./images/1.jpeg" alt="Gallery Image 1" class="gallery-item" onclick="openImg(this.src)">
+            <img src="./images/2.jpeg" alt="Gallery Image 2" class="gallery-item" onclick="openImg(this.src)">
+            <img src="./images/3.jpeg" alt="Gallery Image 3" class="gallery-item" onclick="openImg(this.src)">
+            <img src="./images/gallery4.jpg" alt="Gallery Image 4" class="gallery-item" onclick="openImg(this.src)">
+        </div>
+    </section>
+
+
+    <div id="popup" class="popup">
+        <span class="close">&times;</span>
+        <img class="popup-content" id="popup-img">
+    </div>
+
+    <script src="./script.js"></script>
 
 </body>
 </html>
