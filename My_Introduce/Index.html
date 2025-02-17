@@ -33,12 +33,22 @@
 
     <section id="gallery">
         <h2>Gallery</h2>
-        <div class="gallery-container">
-            <img src="./images/1.jpeg" alt="Gallery Image 1" class="gallery-item" onclick="openImg(this.src)">
-            <img src="./images/2.jpeg" alt="Gallery Image 2" class="gallery-item" onclick="openImg(this.src)">
-            <img src="./images/3.jpeg" alt="Gallery Image 3" class="gallery-item" onclick="openImg(this.src)">
-            <img src="./images/gallery4.jpg" alt="Gallery Image 4" class="gallery-item" onclick="openImg(this.src)">
+        <div class = "filter-container">
+            <lavel><input type="radio" name="style-filter" value="all" checked> 전체 </lavel>
+            <lavel><input type="radio" name="style-filter" value="amekaji"> 아메카지 </lavel>
+            <lavel><input type="radio" name="style-filter" value="minimal"> 미니멀 </lavel>
+            <lvael><input type="radio" name="style-filter" value="normcore"> 놈코어 </lvael>
+
+
         </div>
+        <div class="gallery-container">
+            <img src="./images/1.jpeg" alt="" class="gallery-item amekaji" onclick="openImg(this.src)">
+            <img src="./images/2.jpeg" alt="" class="gallery-item amekaji" onclick="openImg(this.src)">
+            <img src="./images/3.jpeg" alt="" class="gallery-item amekaji" onclick="openImg(this.src)">
+            <img src="./images/4.jpg" alt="" class="gallery-item amekaji" onclick="openImg(this.src)">
+        </div>
+
+
     </section>
 
 
