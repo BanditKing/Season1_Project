@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb200ba6-e4d2-481d-8ae3-6e02c42d24d6" name="변경" comment="초기 기획">
+    <list default="true" id="bb200ba6-e4d2-481d-8ae3-6e02c42d24d6" name="변경" comment="라디오버튼을 추가해 스타일에 따른 사진을 띄우도록 하는 작업">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/My_Introduce/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_Introduce/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_Introduce/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/My_Introduce/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/My_Introduce/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/My_Introduce/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +39,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/My_Introduce/images" />
       <recent name="$PROJECT_DIR$/My_Introduce" />
     </key>
@@ -57,7 +60,28 @@
       <option name="project" value="LOCAL" />
       <updated>1739413826576</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="js추가 - 모달 팝업 , 닫기 &#10;css - 주로 갤러리 스타일링&#10;html 사진 추가">
+      <created>1739610666313</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739610666313</updated>
+    </task>
+    <task id="LOCAL-00003" summary="라디오버튼을 추가해 스타일에 따른 사진을 띄우도록 하는 작업">
+      <created>1739766502647</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739766502647</updated>
+    </task>
+    <task id="LOCAL-00004" summary="라디오버튼을 추가해 스타일에 따른 사진을 띄우도록 하는 작업">
+      <created>1739766685466</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739766685466</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -73,6 +97,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="초기 기획" />
-    <option name="LAST_COMMIT_MESSAGE" value="초기 기획" />
+    <MESSAGE value="js추가 - 모달 팝업 , 닫기 &#10;css - 주로 갤러리 스타일링&#10;html 사진 추가" />
+    <MESSAGE value="라디오버튼을 추가해 스타일에 따른 사진을 띄우도록 하는 작업" />
+    <option name="LAST_COMMIT_MESSAGE" value="라디오버튼을 추가해 스타일에 따른 사진을 띄우도록 하는 작업" />
   </component>
 </project>

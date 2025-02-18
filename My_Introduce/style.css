@@ -40,6 +40,11 @@
     height: 80px;
 }
 
+#nav>img{
+    width: 50px;
+    height : auto;
+}
+
 #nav>a{
     display: block;
     float : left;
@@ -102,4 +107,10 @@
     height: auto;
     max-width: 180px;
     border-radius: 10px;
+    display : none;
+}
+
+.gallery-item.active {
+    display: block;
+
 }
