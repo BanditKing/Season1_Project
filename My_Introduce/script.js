@@ -2,6 +2,13 @@ const popup = document.getElementById("popup");
 const popupImg = document.getElementById("popup-img");
 const closeBtn = document.querySelector(".close");
 
+function movegallery() {
+    const gallerySection = document.getElementById("gallery");
+    if (gallerySection) {
+            gallerySection.scrollIntoView({ behavior: "smooth" });
+        }
+    }
+
 function openImg(src) {
     popup.style.display = "flex";
     popupImg.src = src;
