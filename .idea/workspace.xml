@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb200ba6-e4d2-481d-8ae3-6e02c42d24d6" name="변경" comment="라디오 버튼을 이용한 카테고리 나누기">
+    <list default="true" id="bb200ba6-e4d2-481d-8ae3-6e02c42d24d6" name="변경" comment="메인 세션 배경화면 추가 + 블러 처리&#10;라이브러리 Gallery를 누를때 갤러리 세션으로 이동">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_Introduce/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_Introduce/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_Introduce/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/My_Introduce/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_Introduce/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/My_Introduce/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_Introduce/Index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_Introduce/images/1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_Introduce/images/2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_Introduce/images/3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_Introduce/images/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_Introduce/images/a1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_Introduce/images/title.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_Introduce/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_Introduce/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1739857870368</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="메인 세션 배경화면 추가 + 블러 처리&#10;라이브러리 Gallery를 누를때 갤러리 세션으로 이동">
+      <created>1739940127602</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739940127602</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +120,7 @@
     <MESSAGE value="js추가 - 모달 팝업 , 닫기 &#10;css - 주로 갤러리 스타일링&#10;html 사진 추가" />
     <MESSAGE value="라디오버튼을 추가해 스타일에 따른 사진을 띄우도록 하는 작업" />
     <MESSAGE value="라디오 버튼을 이용한 카테고리 나누기" />
-    <option name="LAST_COMMIT_MESSAGE" value="라디오 버튼을 이용한 카테고리 나누기" />
+    <MESSAGE value="메인 세션 배경화면 추가 + 블러 처리&#10;라이브러리 Gallery를 누를때 갤러리 세션으로 이동" />
+    <option name="LAST_COMMIT_MESSAGE" value="메인 세션 배경화면 추가 + 블러 처리&#10;라이브러리 Gallery를 누를때 갤러리 세션으로 이동" />
   </component>
 </project>
