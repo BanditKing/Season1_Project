@@ -9,6 +9,20 @@ function movegallery() {
         }
     }
 
+function moveabout() {
+    const aboutSection = document.getElementById("about");
+    if (aboutSection) {
+            aboutSection.scrollIntoView({ behavior: "smooth"});
+    }
+}
+
+function movecontact() {
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+            contactSection.scrollIntoView({ behavior: "smooth"});
+            }
+}
+
 function openImg(src) {
     popup.style.display = "flex";
     popupImg.src = src;
