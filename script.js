@@ -62,12 +62,12 @@ document.querySelectorAll('input[name="style-filter"]').forEach(radio => {
        }
 
 
-emailjs.init("m7fsG79GFvNINTJsE");
+emailjs.init("");
 
 document.getElementById("contact-form").addEventListener("submit", function(event) {
     event.preventDefault();
 
-    emailjs.send("service_gfgsf9l", "template_a6bzc9e", {
+    emailjs.send("", "", {
         from_name: document.getElementById("name").value,
         from_email: document.getElementById("email").value,
         message: document.getElementById("message").value
