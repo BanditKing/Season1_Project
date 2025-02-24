@@ -6,15 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Street Gallery</title>
     <link href="./style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </head>
 <body>
+
+
+
     <nav id = "nav">
-        <img src='./images/logo.png'></a>
+        <img src='./images/logo.png'>
         <ul>
-            <a href ="#"onclick="moveabout()">About</a>
-            <a href="#" onclick="movegallery()">Gallery</a>
-            <a href ="#" onclick="movecontact()">Contact</a>
+            <li><a href ="#" onclick="moveabout()">About</a></li>
+            <li><a href="#" onclick="movegallery()">Gallery</a></li>
+            <li><a href ="#" onclick="movecontact()">Contact</a></li>
         </ul>
     </nav>
 
@@ -35,10 +40,10 @@
     <section id="gallery">
         <h2>Gallery</h2>
         <div class = "filter-container">
-            <lavel><input type="radio" name="style-filter" value="all" checked> 전체 </lavel>
-            <lavel><input type="radio" name="style-filter" value="amekaji"> 아메카지 </lavel>
-            <lavel><input type="radio" name="style-filter" value="minimal"> 미니멀 </lavel>
-            <lvael><input type="radio" name="style-filter" value="normcore"> 놈코어 </lvael>
+            <label><input type="radio" name="style-filter" value="all" checked> 전체 </label>
+            <label><input type="radio" name="style-filter" value="amekaji"> 아메카지 </label>
+            <label><input type="radio" name="style-filter" value="minimal"> 미니멀 </label>
+            <label><input type="radio" name="style-filter" value="normcore"> 놈코어 </label>
 
 
         </div>
@@ -112,8 +117,12 @@
 
     <div id="popup" class="popup">
         <span class="close">&times;</span>
-        <img class="popup-content" id="popup-img">
+        <img class="popup-content" src=""  id="popup-img">
     </div>
+
+    <button class="arrowBtn">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
 
     <script src="./script.js"></script>
 

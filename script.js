@@ -74,8 +74,17 @@ document.getElementById("contact-form").addEventListener("submit", function(even
     }).then(response => {
         alert("메일을 전송했습니다 좋은 의견 감사합니다!");
 
-        document.getElementById("contact-form").reset()
+        document.getElementById("contact-form").reset() //전송후 초기화
     }).catch(error => {
         console.error("현재 메일을 보낼 수 없습니다.", error);
     });
+});
+
+const arrowBtn = document.querySelector('.arrowBtn');
+
+arrowBtn.addEventListener('click', () => {
+    window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+    })
 });
