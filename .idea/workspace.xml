@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb200ba6-e4d2-481d-8ae3-6e02c42d24d6" name="변경" comment="디렉토리 변경">
+    <list default="true" id="bb200ba6-e4d2-481d-8ae3-6e02c42d24d6" name="변경" comment="상단 이동 기능 추가, 전체적 CSS 개선">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +106,42 @@
       <option name="project" value="LOCAL" />
       <updated>1740013317991</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="사진 추가 (주요 필터 기능 정상화) , 어바웃, 컨텍트 세션 생성, &#10;라이브러리 바 기능부여">
+      <created>1740102919860</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740102919860</updated>
+    </task>
+    <task id="LOCAL-00010" summary="스타일링 사진">
+      <created>1740102940864</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1740102940864</updated>
+    </task>
+    <task id="LOCAL-00011" summary="mailjs API 추가">
+      <created>1740368212915</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1740368212915</updated>
+    </task>
+    <task id="LOCAL-00012" summary="상단 이동 버튼 추가, 네비게이션 바 css 개선 ,">
+      <created>1740410878314</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1740410878314</updated>
+    </task>
+    <task id="LOCAL-00013" summary="상단 이동 기능 추가, 전체적 CSS 개선">
+      <created>1740560105648</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1740560105650</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +162,11 @@
     <MESSAGE value="라디오 버튼을 이용한 카테고리 나누기" />
     <MESSAGE value="메인 세션 배경화면 추가 + 블러 처리&#10;라이브러리 Gallery를 누를때 갤러리 세션으로 이동" />
     <MESSAGE value="디렉토리 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="디렉토리 변경" />
+    <MESSAGE value="사진 추가 (주요 필터 기능 정상화) , 어바웃, 컨텍트 세션 생성, &#10;라이브러리 바 기능부여" />
+    <MESSAGE value="스타일링 사진" />
+    <MESSAGE value="mailjs API 추가" />
+    <MESSAGE value="상단 이동 버튼 추가, 네비게이션 바 css 개선 ," />
+    <MESSAGE value="상단 이동 기능 추가, 전체적 CSS 개선" />
+    <option name="LAST_COMMIT_MESSAGE" value="상단 이동 기능 추가, 전체적 CSS 개선" />
   </component>
 </project>
