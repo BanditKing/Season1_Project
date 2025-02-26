@@ -61,6 +61,14 @@
     padding: 0 30px;
     height: 80px;
     width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* 다른 요소들보다 위에 오도록 */
 }
 
 
@@ -96,6 +104,7 @@
 
 #nav ul {
     display: flex;
+    flex-wrap: nowrap;
     gap: 30px;
     list-style: none;
     padding: 0;
@@ -176,3 +185,80 @@
     text-align: center;
     color: white;
 }
+
+/*about 이미지 가운데 정렬 */
+.about-image {
+    display: block;
+    margin: 0 auto;
+  }
+
+/* 컨텍트 폼 */
+
+   .form-container {
+       display: none;
+       margin-top: 20px;
+       padding: 20px;
+       border: 1px solid #ddd;
+       border-radius: 8px;
+       width: 350px; /* 폼 크기 */
+       background-color: #f9f9f9;
+       box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+       margin-left: auto;
+       margin-right: auto;
+       text-align: center;
+   }
+
+   /* 입력 필드  */
+   .form-container input,
+   .form-container textarea {
+       width: 100%;
+       padding: 10px;
+       margin-top: 10px;
+       border: 1px solid #ccc;
+       border-radius: 5px;
+       box-sizing: border-box;
+       display: block;
+       font-size: 16px;
+   }
+
+   /* 텍스트 영역 크기 조정 */
+   .form-container textarea {
+       resize: vertical;
+       height: 100px;
+   }
+
+   /* 버튼 스타일 정리 */
+   .form-container button {
+       margin-top: 15px;
+       padding: 10px;
+       width: 100%;
+       background-color: #28a745;
+       color: white;
+       border: none;
+       border-radius: 5px;
+       cursor: pointer;
+       font-size: 16px;
+       font-weight: bold;
+       transition: background 0.3s ease-in-out;
+   }
+
+
+ /* 토글 버튼 */
+   #toggleButton {
+       background: rgba(255, 255, 255, 0.9);
+       color: #333;
+       font-size: 15px;
+       font-weight: bold;
+       padding: 8px 10px;
+       border: 2px solid #255;
+       border-radius: 3px;
+       display: block;
+       margin: 20px auto;
+       text-align: center;
+       width: fit-content;
+   }
+
+   #toggleButton:hover {
+       background-color: #ddd;
+       color: black;
+   }

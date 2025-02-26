@@ -7,7 +7,6 @@
     <title>Street Gallery</title>
     <link href="./style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </head>
 <body>
@@ -36,6 +35,15 @@
 
 
     </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <img src="./images/title.jpg" alt="프로필 사진" class="about-image">
+        <p style="text-align: center; color: black;">현재는 3가지의 스타일을 이미지 제공하고있습니다.</p>
+        <p style="text-align: center; color: black;">셋은 유사하면서 다른 이름으로 불리고 있습니다.</p>
+        <p style="text-align: center; color: black;">각각의 문화적 배경과 미학에 따라 구체적인 아이템 선택과 스타일링이 달라지므로 완전히 흡사한 것은 아닙니다.</p>
+    </section>
+
 
     <section id="gallery">
         <h2>Gallery</h2>
@@ -94,31 +102,31 @@
 
     </section>
 
-    <section id="about">
-        <h2>About</h2>
-        <p>현재는 3가지의 스타일을 이미지 제공하고있습니다.</p>
-        <p>셋은 유사하면서 다른 이름으로 불리고 있습니다.</p>
-        <p>각각의 문화적 배경과 미학에 따라 구체적인 아이템 선택과 스타일링이 달라지므로 완전히 흡사한 것은 아닙니다.</p>
-    </section>
-
     <section id="contact">
         <h2>Contact</h2>
-        <form id="contact-form">
-            <input type="text" id="name" placeholder="name" required>
-            <input type="email" id="email" placeholder="email" required><br>
-            <textarea id="message" placeholder="message" required></textarea><br>
+        <br>
+        <br>
+        <br>
+        <p style="text-align: center; color: black;">만약 추가되었으면 하는 사진이 있거나</p>
+        <p style="text-align: center; color: black;">개선 되었으면 하는 기능이 있다면 아래의 기능을 이용해 개선 사항을 전달해주세요</p>
+        <button id="toggleButton">문의하기</button>
+
+        <form id="contactForm" class="form-container">
+            <h3>문의하기</h3>
+            <input type="text" id="name" name="name" placeholder="이름" required>
+            <input type="email" id="email" name="email" placeholder="이메일" required>
+            <textarea id="message" name="message" placeholder="내용" rows="4" required></textarea>
             <button type="submit">전송</button>
-
-
         </form>
-
     </section>
+
 
 
     <div id="popup" class="popup">
         <span class="close">&times;</span>
         <img class="popup-content" src=""  id="popup-img">
     </div>
+
 
     <button class="arrowBtn">
         <i class="fa-solid fa-arrow-up"></i>
