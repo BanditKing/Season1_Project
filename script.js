@@ -68,7 +68,7 @@ emailjs.init("----");
 document.getElementById("contactForm").addEventListener("submit", function(event) {
     event.preventDefault();
 
-    emailjs.send("------", "-----", {
+    emailjs.send("------", "template_a6bzc9e", {
         from_name: document.getElementById("name").value,
         from_email: document.getElementById("email").value,
         message: document.getElementById("message").value
