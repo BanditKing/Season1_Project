@@ -31,12 +31,13 @@ function openImg(src) {
 closeBtn.onclick = function() {
     popup.style.display = "none";
 }
+/* 배경을 눌러도 팝업이 닫히도록 하는 코드 */
 
-popup.onclick = function(event) {
-    if (event.target === popup) {
-        popup.style.display = "none";
-    }
-}
+//popup.onclick = function(event) {
+//    if (event.target === popup) {
+//        popup.style.display = "none";
+//    }
+//}
 
 document.querySelectorAll('input[name="style-filter"]').forEach(radio => {
     radio.addEventListener('change', function() {
@@ -64,7 +65,7 @@ document.querySelectorAll('input[name="style-filter"]').forEach(radio => {
 
 emailjs.init("m7fsG79GFvNINTJsE");
 
-document.getElementById("contact-form").addEventListener("submit", function(event) {
+document.getElementById("contactForm").addEventListener("submit", function(event) {
     event.preventDefault();
 
     emailjs.send("service_gfgsf9l", "template_a6bzc9e", {
@@ -74,8 +75,15 @@ document.getElementById("contact-form").addEventListener("submit", function(even
     }).then(response => {
         alert("메일을 전송했습니다 좋은 의견 감사합니다!");
 
-        document.getElementById("contact-form").reset()
+        document.getElementById("contactForm").reset();
     }).catch(error => {
         console.error("현재 메일을 보낼 수 없습니다.", error);
     });
 });
+
+
+document.addEventListener("DOMContentLoaded", () =>
+    document.getElementById("toggleButton").addEventListener("click", () =>
+        document.getElementById("contactForm")?.classList.toggle("show")
+    )
+);

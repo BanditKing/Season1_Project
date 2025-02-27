@@ -208,6 +208,10 @@
        text-align: center;
    }
 
+   .form-container.show {
+       display: block;
+   }
+
    /* 입력 필드  */
    .form-container input,
    .form-container textarea {
@@ -242,6 +246,9 @@
        transition: background 0.3s ease-in-out;
    }
 
+   .form-container button:hover {
+       background-color: #218838;
+   }
 
  /* 토글 버튼 */
    #toggleButton {
